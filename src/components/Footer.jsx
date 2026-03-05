@@ -120,7 +120,7 @@ const Footer = () => {
             <p className="text-[13px] font-light text-[rgb(105, 105, 105)]">By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2026 © Zomato™ Ltd. All rights reserved.</p>
           </div>
         </div>
-        <a href="https://www.flaticon.com/free-icons/india" title="india icons" className="mt-10 block"><button>India icons created by verluk - Flaticon</button></a>
+        <a href="https://www.flaticon.com/free-icons/india" title="india icons" className="mt-10 mb-10 block"><button>India icons created by verluk - Flaticon</button></a>
       </div >
     </>
 
