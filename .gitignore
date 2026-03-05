@@ -1,5 +1,26 @@
+# Dependencies
+node_modules/
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# Build output
+dist/
+dist-ssr/
+build/
+out/
+
+# Vite cache
+.vite/
+.vite-cache/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
 # Logs
-logs
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -7,18 +28,45 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
+# IDE & Editor
 .vscode/*
 !.vscode/extensions.json
-.idea
+.idea/
+*.swp
+*.swo
+*.swn
 .DS_Store
+.prettierignore
+*.code-workspace
+
+# OS specific files
+Thumbs.db
+ehthumbs.db
+._*
+.Spotlight-V100
+.Trashes
+
+# IDE temporary files
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# Local development
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Tests & Coverage
+coverage/
+.nyc_output/
+.mocha_output/
+
+# ESLint cache
+.eslintcache
+
+# Temporary files
+temp/
+tmp/
+*.local
