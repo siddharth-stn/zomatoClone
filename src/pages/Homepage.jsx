@@ -1,6 +1,9 @@
 import SectionInspiration from "@/components/SectionInspiration";
+import TopBrands from "@/components/TopBrands";
 import axios from "axios";
 import { useEffect, useState } from "react";
+import { restaurantData } from "@/lib/data";
+import EndSearch from "@/components/EndSearch";
 
 const Homepage = () => {
 
@@ -21,6 +24,8 @@ const Homepage = () => {
   return (
     <main>
       <SectionInspiration data={resData} />
+      <TopBrands data={restaurantData} />
+      <EndSearch />
     </main>
   );
 };
